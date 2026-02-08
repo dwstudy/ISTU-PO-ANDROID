@@ -6,7 +6,7 @@
     android:padding="24dp"
     android:gravity="center"
     android:id="@+id/main"
-    android:background="#021D52">
+    android:background="@color/background">
 
         <ImageView
             android:id="@+id/imageView"
@@ -23,7 +23,7 @@
             android:text="@string/fullname"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="#FFF"
+            android:textColor="@color/white"
             android:layout_marginBottom="8dp"/>
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:text="@string/position"
             android:textSize="16sp"
-            android:textColor="#FFF"
+            android:textColor="@color/white"
             android:layout_marginBottom="16dp"/>
 
         <TextView
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFF"
-            android:text="+7 (999) 123-45-67"
+            android:text="+7(999)123-45-67"
             android:textSize="14sp"
             android:layout_marginBottom="8dp"/>
 
@@ -48,7 +48,7 @@
             android:id="@+id/emailTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FFF"
+            android:textColor="@color/white"
             android:text="my-email@yandex.ru"
             android:textSize="14sp"
             android:layout_marginBottom="8dp"/>
@@ -57,7 +57,7 @@
             android:id="@+id/websiteTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FFF"
+            android:textColor="@color/white"
             android:text="github.com/dwstudy"
             android:textSize="14sp"/>
 
