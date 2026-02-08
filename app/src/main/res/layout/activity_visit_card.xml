@@ -3,62 +3,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp"
+    android:padding="@dimen/padding_standard"
     android:gravity="center"
     android:id="@+id/main"
     android:background="@color/background">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/android_logo"
-            android:scaleType="centerCrop"
-            android:layout_marginBottom="16dp"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:src="@drawable/android_logo"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/margin_bottom_medium"/>
 
-        <TextView
-            android:id="@+id/nameTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/fullname"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fullname"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/margin_bottom_small"/>
 
-        <TextView
-            android:id="@+id/titleTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/position"
-            android:textSize="16sp"
-            android:textColor="@color/white"
-            android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/position"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/margin_bottom_medium"/>
 
-        <TextView
-            android:id="@+id/phoneTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="#FFF"
-            android:text="+7(999)123-45-67"
-            android:textSize="14sp"
-            android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/phone"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginBottom="@dimen/margin_bottom_small"/>
 
-        <TextView
-            android:id="@+id/emailTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="my-email@yandex.ru"
-            android:textSize="14sp"
-            android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/email"
+        android:textSize="@dimen/text_size_small"
+        android:layout_marginBottom="@dimen/margin_bottom_small"/>
 
-        <TextView
-            android:id="@+id/websiteTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:text="github.com/dwstudy"
-            android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/websiteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/github"
+        android:textSize="@dimen/text_size_small"/>
 
 </LinearLayout>

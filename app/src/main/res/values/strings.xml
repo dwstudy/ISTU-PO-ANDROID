@@ -2,4 +2,7 @@
     <string name="app_name">Lab1</string>
     <string name="fullname">Anton Churakov</string>
     <string name="position">Student B23-191-1zu</string>
+    <string name="email">my-email@yandex.ru</string>
+    <string name="phone">+7(999)123-45-67</string>
+    <string name="github">github.com/dwstudy</string>
 </resources>
